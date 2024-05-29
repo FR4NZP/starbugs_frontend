@@ -14,7 +14,7 @@
         "VUL",
     ];
     let selectedConstellation = constellations[0];
-
+// ein oder einfügen für die server url um es dann wenn man pusht mit dem server laufen zu lassen
     async function fetchStars() {
         const API_URL = `${
             import.meta.env.VITE_API_BASE_URL
